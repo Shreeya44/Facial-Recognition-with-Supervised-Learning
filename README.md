@@ -10,3 +10,15 @@ The `data/lfw_arnie_nonarnie.csv` dataset contains processed facial image data d
 |-------------|-------------|
 | PC1, PC2, ... PCN | Principal components from PCA, capturing key image features. |
 | Label | Binary indicator: `1` for Arnold Schwarzenegger, `0` for others. |
+
+## Key Features
+#### Class Imbalance Handling: 
+Utilizes SMOTE (Synthetic Minority Oversampling Technique) to balance the dataset.
+#### Model Selection:
+Employs Random Forest Classifier for robust and interpretable predictions.
+#### Hyperparameter Optimization:
+Implements GridSearchCV to find the best model configuration.
+#### Pipeline Integration:
+Combines preprocessing and model training into a seamless pipeline.
+#### Evaluation Metrics:
+Measures accuracy, precision, recall, F1-score, and confusion matrix.
